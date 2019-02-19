@@ -1,7 +1,14 @@
 {
   "name": "unsplash-browser",
+  "description": "A React app for interacting with the Unsplash API",
   "version": "0.1.0",
+  "author": "Ian Sutherland",
+  "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iansu/unsplash-browser.git"
+  },
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -26,7 +33,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
-     }
+    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
